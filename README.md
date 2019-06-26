@@ -13,7 +13,13 @@ You just need the **`qmlfmt`** command
 Obtain a copy of this plugin and place `qmlfmt.vim` in your Vim plugin directory or be sensible and use something like Plug:
 
 ```
-Plug 'adekker/vim-qmlfmt', { 'for': 'qml' }
+Plug 'a-dekker/vim-qmlfmt', { 'for': 'qml' }
+```
+
+or via vundle:
+```
+" qml formatter
+Plugin 'a-dekker/vim-qmlfmt'
 ```
 
 ## Usage
