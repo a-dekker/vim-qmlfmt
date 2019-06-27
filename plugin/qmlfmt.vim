@@ -50,6 +50,10 @@ function! s:Qmlfmt(current_args)
         " user's work!
         undo
     endif
+    " if we got no output, there was nothing to reformat: restore the buffer.
+    if line('$') == 1 && getline(1) == ''
+        silent undo
+    endif
     " Reset the cursor position if we moved
     if l:cursor_position != getcurpos()
         call setpos('.', l:cursor_position)
