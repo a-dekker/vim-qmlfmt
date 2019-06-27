@@ -38,7 +38,7 @@ You can also use the `:Qmlfmt` command together with options. For example,
 
 ### Configuration
 
-**qmlfmt** uses tabs by default for auto formatting, so if you prefer to use 2 spaces, you can set the following in your `.vimrc` file:
+**qmlfmt** uses 4 spaces by default for auto formatting, so if you prefer to use 2 spaces, you can set the following in your `.vimrc` file:
 
 ```viml
 let g:qmlfmt_extra_args = '-i 2'
