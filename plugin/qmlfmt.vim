@@ -30,6 +30,10 @@ endif
 
 let s:qmlfmt_switches = ['-t', '-i']
 
+function! s:QmlfmtSwitches(...)
+    return join(s:qmlfmt_switches, "\n")
+endfunction
+
 function! s:Qmlfmt(current_args)
     let l:extra_args = g:qmlfmt_extra_args
     let l:filename = @%

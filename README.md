@@ -1,6 +1,6 @@
 # Vim plugin for qmlfmt
 
-Based on [shfmt](https://github.com/z0mbix/vim-shfmt)
+Based on [vim-shfmt](https://github.com/z0mbix/vim-shfmt)
 
 The **Vim qmlfmt** plugin runs [qmlfmt](https://github.com/jesperhh/qmlfmt) to auto format the current buffer
 
